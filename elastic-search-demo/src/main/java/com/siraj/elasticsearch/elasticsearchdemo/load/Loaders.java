@@ -31,6 +31,8 @@ public class Loaders {
     }
 
     private List<Users> getData() {
+
+        // TODO: 05-Apr-18 To pick results from a file and load the results into Elastic Search 
         List<Users> userses = new ArrayList<>();
         userses.add(new Users("Siraj",123L, "IT", 12000L));
         userses.add(new Users("Isaac",1234L, "Finance", 44000L));
